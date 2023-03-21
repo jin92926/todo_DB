@@ -1,16 +1,51 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "email": "olivier@mail.com",
+      "password": "$2a$10$v20jbyoiZvL0iDFN3EcxQukMqyLZ3zLHQuFLJMPA6DCYyUjkayoTy",
+      "id": 1
+    },
+    {
+      "email": "test2@mail.com",
+      "password": "$2a$10$vss/cEexy4f0FrnI2TuzFOHt42IWns69FPoaPLoH02OJHNA6nySem",
+      "id": 2
     }
   ],
-  "comments" : [
+  "todos": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "userId": 1,
+      "createAt": "2023년 3월 3일",
+      "text": "좀 되라",
+      "done": false,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "createAt": "2023년 3월 3일",
+      "text": "테스트 중",
+      "done": false,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "createAt": "2023년 3월 3일",
+      "text": "테스트중이지",
+      "done": false,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "createAt": "2023년 3월 21일",
+      "text": "git action 테스트",
+      "done": false,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "createAt": "2023년 3월 21일",
+      "text": "git repo test",
+      "done": false,
+      "id": 5
     }
   ]
 }
